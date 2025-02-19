@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <title>Membuat Formulir</title>
+  </head>
+  <body>
+    <table width="500s" border="0">
+      <tr>
+        <td align="center">Formulir Pendaftaran</td>
+      </tr>
+      <tr>
+        <td>
+          <form method="post" action="input_form.html">
+            <table>
+              <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>
+                  <input type="text" name="name" placeholder="Nama Lengkap" />
+                </td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="alex123@gmail.com.." /></td>
+              </tr>
+              <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Password"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="" /></td>
+              </tr>
+              <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                  <input type="date" name="tgl_lahir" />
+                </td>
+              </tr>
+              <tr>
+                <td>Status</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="" /></td>
+              </tr>
+              <tr>
+                <td>Asal sekolah</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="" /></td>
+              </tr>
+              <tr>
+                <td>Nama Ayah</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="" /></td>
+              </tr>
+              <tr>
+                <td>Nama Ibu</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="" /></td>
+              </tr>
+              <tr>
+                <td>Nama Wali</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="Jika ada wali.." /></td>
+              </tr>
+              <tr>
+                <td>Tahun keluar</td>
+                <td>:</td>
+                <td><input type="number" id="tahun keluar" name="" min="2000" max="2030" /></td>
+              </tr>
+              <tr>
+                <td>Tahun Masuk</td>
+                <td>:</td>
+                <td>
+                    <input type="number" id="tahun masuk" name="" min="2000" max="2030" />
+                </td>
+              </tr>
+              <tr>
+                <td>Bahasa yang dikuasai</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="Mandarin.." /></td>
+              </tr>
+              <tr>
+                <td>Anak ke-</td>
+                <td>:</td>
+                <td>
+                  <input type="number" name="anak_ke" />
+                </td>
+              </tr>
+              <tr>
+                <td>Hoby</td>
+                <td>:</td>
+                <td>
+                  <input type="checkbox" name="hoby" value="Olahraga" />Olahraga
+                  <input type="checkbox" name="hoby" value="Makan" />Makan
+                </td>
+              </tr>
+              <tr>
+                <td>Jenis Kelamiin</td>
+                <td>:</td>
+                <td>
+                  <input type="radio" name="jk" value="Laki-laki" />Laki-laki
+                  <input type="radio" name="jk" value="Perempuan" />Perempuan
+                </td>
+              </tr>
+              <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>
+                  <textarea
+                    name="alamat"
+                    rows="4"
+                    placeholder="alamat"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>No Telepon</td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="08.." /></td>
+              </tr>
+              <tr>
+                <td>Fakultas</td>
+                <td>:</td>
+                <td>
+                  <select name="Prodi">
+                    <option value="Ilmu Komputer">Ilmu Komputer</option>
+                    <option value="Psikologi">Psikologi</option>
+                    <option value="Perawat">Perawat</option>
+                    <option value="Ekonomi">Ekonomi</option>
+                    <option value="Arsitek">Arsitek</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Program studi</td>
+                <td>:</td>
+                <td>
+                  <select name="Prodi">
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Informatika">Informatika</option>
+                    <option value="Psikologi">Psikologi</option>
+                    <option value="Akuntansi">Akuntansi</option>
+                    <option value="Perawat">Perawat</option>
+                    <option value="Arsitek">Arsitek</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                  <select name="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Kong Hu Cu">Kong Hu Cu</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="foto">Foto profil</label></td>
+                <td>:</td>
+                <td><input type="file" id="foto" name="foto" accept="image/*" required></td>
+              </tr>
+            </table>
+            <input type="hidden" name="status" value="aktif" />
+            <button type="submit">Input Data</button>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
